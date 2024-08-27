@@ -35,8 +35,8 @@ p{
 }
 .about-container{
     max-width: 800px; 
-    padding: 20px;   
-    margin: 0 auto;   
+    padding: 20px; 
+    margin: 0 auto;  
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -63,12 +63,17 @@ p{
 .big-img{
     justify-content: center;
     display: flex;
-    margin-top: 35px;
+    margin-top: 25px;
+}
+.big-image-container{
+    width: 800px;
+    height: 250px;
+    margin: 0 auto;
 }
 .big-img img{
   object-fit: cover;
   height: 250px;
-  width: 800px;
+  width: 100%;
   max-width: 800px;
   padding: 20px;
 }
