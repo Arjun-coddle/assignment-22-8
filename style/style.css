@@ -34,18 +34,20 @@ p{
     margin-top: 50px;
 }
 .about-container{
-    max-width: 800px;    
+    max-width: 800px; 
+    padding: 20px;   
     margin: 0 auto;   
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: 50px;
 }
 .about-leftside{
-    width: 100%;
+    width: 40%;
 }
 .about img{
-    width: 70%;
+    width: 100%;
     height: 200px;
+    object-fit: cover;
 }
 .about-rightside{
     width: 100%;
@@ -67,4 +69,6 @@ p{
   object-fit: cover;
   height: 250px;
   width: 800px;
+  max-width: 800px;
+  padding: 20px;
 }
